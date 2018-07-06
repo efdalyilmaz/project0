@@ -1,16 +1,23 @@
-$table-font-color: #606c71;
-$table-border-color: #e9ebec;
-$background-color: transparent;
-$background-radius: 1px;
-
+$border : 1px solid lightgray;
+$border-collapse: collapse;
+$text-align: center;
+$width: 50%;
+$border-radius: 5px;
 
 .customtable {
-    color: $table-font-color;  
-    border: 2px solid;
-    border-color: $table-border-color;
-    background-color: $background-color;
-    border-radius: 2px;
+    border: $border;
+    width: $width;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-radius :$border-radius;
 }
 
+thead, tbody, tr, th, td {
+    border: $border;
+    border-radius :$border-radius;
+    padding:5px;
+    text-align: $text-align;
+}
 
-
+th, thead {
+    background-color: lightgray;
+}

@@ -1,0 +1,19 @@
+.customtable {
+  border: 1px solid lightgray;
+  width: 50%;
+  font-family: "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+}
+
+thead, tbody, tr, th, td {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+th, thead {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=styless.css.map */
