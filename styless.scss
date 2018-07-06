@@ -1,0 +1,16 @@
+$table-font-color: #606c71;
+$table-border-color: #e9ebec;
+$background-color: transparent;
+$background-radius: 1px;
+
+
+.customtable {
+    color: $table-font-color;  
+    border: 2px solid;
+    border-color: $table-border-color;
+    background-color: $background-color;
+    border-radius: 2px;
+}
+
+
+
